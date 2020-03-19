@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint ./src/scripts --ext .js",
-    "eslintFix": "eslint ./src/scripts --fix",
+    "eslint": "eslint ./src/js --ext .js",
+    "eslintFix": "eslint ./src/js --fix",
     "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
